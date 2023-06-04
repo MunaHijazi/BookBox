@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    app:cardCornerRadius="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="27dp"
+            />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:id="@+id/t22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/t44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="1dp"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="1dp"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="0.5dp"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="0.5dp"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/t88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="0.5dp"
+                android:visibility="invisible"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/AcceptB"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="-30dp"
+            android:background="@drawable/rec2ground"
+            android:text="Accept"
+            android:textColor="#fff"
+
+            />
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_clear_black_24dp"
+
+
+            />
+
+
+    </LinearLayout>
+    >
+
+</androidx.cardview.widget.CardView>

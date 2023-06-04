@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Book box</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="card_view_dismiss_success">Delete Successfully.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_1">University</string>
+    <string name="title_2">App purpose</string>
+
+    <string name="title_3">Supervisor</string>
+    <string name="title_4">Programers</string>
+    <string name="text1">An-Najah National University in the city of Nablus, a branch in the city of Tulkarem, and it is one of the largest universities, and it emerged from the dignitaries who contributed significantly to the history of the Palestinian cause. An-Najah National University was founded by the Palestinian politician Hassan Shaker Hammad in 1918.</string>
+    <string name="text2">The book box application was developed to facilitate the exchange of any hard copy documents between ptuk’s students. This application is aiming app providing the easiest
+‏and safest exchanges.
+         </string>
+
+    <string name="text3">Mutaseam Abuzant;Primarily responsible for developing image processing software packages
+ 				    Running on dictated graphic boards. Dealing in large with hardware intensive
+    projects. Written numerous interfaces to graphic printers and scanners. </string>
+    <string name="text4">\Atheel hamayel, Muna hijazi,  Students at Najah  University in the Department of Applied Computing</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="spiner1">
+        <item>Select Type</item>
+        <item>Book</item>
+        <item>Summaries</item>
+        <item>Exams</item>
+    </string-array>
+    <string-array name="spiner2">
+        <item>Select Year</item>
+        <item>2023</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+
+    </string-array>
+</resources>

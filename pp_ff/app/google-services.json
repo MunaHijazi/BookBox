@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145151984449",
+    "firebase_url": "https://project-f-e600b-default-rtdb.firebaseio.com",
+    "project_id": "project-f-e600b",
+    "storage_bucket": "project-f-e600b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145151984449:android:cb899ca4c226c752e597c0",
+        "android_client_info": {
+          "package_name": "com.example.pp_ff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145151984449-dvugjanqggo2jnpa2vipvv0dp15btpml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWVhfQYUSq7IWJgsMi8fcJB7WO6HiIaqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145151984449-dvugjanqggo2jnpa2vipvv0dp15btpml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

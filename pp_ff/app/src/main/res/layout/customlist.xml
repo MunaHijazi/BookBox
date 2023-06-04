@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="book name"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textColor="#4d4d4d"
+            android:textSize="16sp"
+            />
+        <Button
+            android:id="@+id/d"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginRight="190dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_clear_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="year"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_marginRight="40dp"/>
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="instructor"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/ruid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_marginLeft="10dp"
+            android:textSize="0.5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

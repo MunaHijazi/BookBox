@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="622dp"
+        android:layout_height="456dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:src="@drawable/nana" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/pattaya"
+        android:text="BookBox"
+        android:textAlignment="center"
+        android:textColor="#64A7E3"
+        android:textSize="70dp" />
+
+</LinearLayout>

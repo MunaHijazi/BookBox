@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/person"
+        >
+    </item>
+    <item android:id="@+id/collction"
+        android:title="Collection"
+        android:icon="@drawable/bag"
+        >
+    </item>
+    <item android:id="@+id/myrequset"
+        android:title="My Order"
+        android:icon="@drawable/requset"
+        >
+    </item>
+
+    <item android:id="@+id/wishlist"
+        android:title="Wish List"
+        android:icon="@drawable/wish"
+        >
+    </item>
+    <item android:id="@+id/notefication"
+        android:title="Notification"
+        android:icon="@drawable/ic_notifications"
+        >
+    </item>
+
+    <group android:id="@+id/bb">
+
+        <item android:id="@+id/about"
+            android:title="About app"
+            android:icon="@drawable/info">
+        </item>
+        <item android:id="@+id/contact"
+            android:title="Contact us"
+            android:icon="@drawable/call">
+        </item>
+
+
+
+        <item android:id="@+id/logout"
+            android:title="Log out"
+            android:icon="@drawable/logout">
+        </item>
+    </group>
+</menu>
